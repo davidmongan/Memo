@@ -12,9 +12,24 @@
     </head>
     <body>
         <!--navbar-->   
-    
+     <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnya">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarnya">
+                    <div class="navbar-nav">
+                        <a class="link" href="#home">Home </a>
+                        <a class="link" href="#profile">Profile</a>
+                        <a class="link" href="#contact">Contact</a>
+                        <a class="link" href="#https://www.instagram.com/davidmongan17/" target="_blank">Link Menuju Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
         <!--section 1-->
-    <section class="section1">
+    <section class="section1" id="home">
         <img src="img/logo.png">
         <hl class="judul">
         <br> 
@@ -26,11 +41,15 @@
         </section>
     
     <!--section 2-->
-        <section class="section2">
+        <section class="section2" id="profile">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-kiri">
-                        JUDUL 
+                        <h2 class= "judul">
+                            DESKRIPSI SINGKAT
+                        </h2>
+                        
+                        
                     </div>
                     <div class="col-md-4 col-kanan">
                     <img src="img/logo.png" width="400px"
@@ -41,7 +60,7 @@
             </section>
         
     <!--section 3-->
-        <section class="section3">
+        <section class="section3" id="contact">
             <div class="container">
             <div class="row">
                 <div class="col col-kiri">
@@ -56,6 +75,9 @@
             </div>
             </div>
             </section>
-                 
+                   <script type="text/javascript" src="js/wow.min.js"></script>        
+                    <script type="text/javascript">
+                    new WOW().init();
+                    </script>
     </body>
 </html> 

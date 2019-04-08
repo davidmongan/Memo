@@ -11,7 +11,7 @@ body,html{
 .judul{
     font-family: bebas neue;
     font-size: 60px;
-    color: crimson;
+    color: black;
     
 }
 .sub judul{
@@ -31,5 +31,19 @@ body,html{
     background:#FFFF00;
 }
 .col-kanan{
+/*    background: #GGG:'8777*/
     font-family: bebas neue;
-    background: #GGG;
+}
+.section3{
+        min-height: : 300px;
+        padding     : 50px 0px;
+        background  : blue;
+}
+.link{
+    padding: 10px 15px;
+    color  : blueviolet
+}
+.link:hover{
+    background: lime;
+}
+    
