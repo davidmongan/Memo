@@ -3,41 +3,103 @@ body,html{
     margin:0 auto;
 }
 .section1{
-    background: url(../img/maxresdefault.jpg);
+    background-image: url(../img/color-smoke-wallpaper-4.jpg);
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    height: 150;
     text-align: center;
+    padding: 100px 0px;
+    margin top: 50px;
+    
 }
 .judul{
-    font-family: bebas neue;
-    font-size: 60px;
-    color: black;
-    
+    font-family: poppins;
+    font-size: 80px;
+    color: #FFB6C1;
+    text-align: center;
+    padding:50px;
+
+}
+.sub-judul h1{
+    font-family : poppins;
+    font-size   : 40px;
+    color       : aquamarine;
+    text-align  : center;
+    text
+
 }
 .sub judul{
     font-family: bebas neue;
-    font-size: 30px;
-    color:cornflowerblue;
+    font-size: 100px;
+    color: #FFFFFF;
     
 }
 .section2{
-    padding:100px 100px;
-    background: #FF0000;
+    padding:50px;
+    text-align: justify;
+    background: #DCDCDC;
     
 }
-.col-kiri{
-    font-family: bebas neue;
-    font-size: 60px;
-    background:#FFFF00;
+.judul2{
+    font-family : poppins;
+    font-size   : 40px;
+    color       : black;
+    text-decoration: underline;
+    width       : 100%;
+    padding : 30px;
+    text-align: left;
+
 }
 .col-kanan{
-/*    background: #GGG:'8777*/
-    font-family: bebas neue;
+    font-family : poppins;
+    background-color  : #FFFAF0;
+    
+}
+.judul2 img{
+    padding-top     : 50px;
+    margin-bottom   : 70px;
+
+}
+.isi{
+    font-family : poppins;
+    font-size   : 20px;
+    text-align  : justify;
+    color       : black;
+
+
 }
 .section3{
-        min-height: : 300px;
-        padding     : 50px 0px;
-        background  : blue;
+    padding   : 50px;
+    background: #DCDCDC;
+}
+.cv{
+    font-family    : poppins;
+    text-align     : left;
+    text-decoration: underline;
+    
+}
+.isicv {
+    padding: 75px 0px;
+    text-align: left;
+    
+}
+.isicv a {
+    font-size: 20px;
+
+}
+.col-kiri{
+    font-family : poppins;
+    color:aliceblue; 
+    font-size   : 20px;
+    background-color:black;
+    
+}
+.section4{
+    padding     : 50px 0px;
+    background  : black;
+    text-align  : center; 
+    margin-top  : 0px;
+    
 }
 .link{
     padding: 10px 15px;
@@ -46,4 +108,12 @@ body,html{
 .link:hover{
     background: lime;
 }
+.footer {
+    padding:5px 0;
+    text-align: center; 
+}
+.footer a {
+    text-align: center;
+
+
     
